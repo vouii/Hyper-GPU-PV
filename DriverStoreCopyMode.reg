@@ -1,0 +1,7 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"DriverStoreCopyMode"=dword:00000002
+						  ; 00000000 = Disable copying
+						  ; 00000001 = Normal operation
+						  ; 00000002 = Enable copying and overwrite existing files
